@@ -6,7 +6,7 @@ global main
 
 main:
 
-  push ebp 
+  push ebp
   mov ebp, esp
 
 
@@ -41,9 +41,9 @@ main:
 
 section .data
 
-  helloStr: db 72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100, 10
+  helloStr: db 'Hello World', 10
   helloStr_len: equ $-helloStr
   foo: dd 10
-  _lamb_var_60: db 104, 97, 104, 97, 10
+  _lamb_var_60: db 'haha', 10
   _lamb_var_60_len: equ $-_lamb_var_60
 
