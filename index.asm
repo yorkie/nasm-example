@@ -41,9 +41,9 @@ main:
 
 section .data
 
-  helloStr: db 'Hello World', 10
+  helloStr: db 'Hello World', 10, 0
   helloStr_len: equ $-helloStr
   foo: dd 10
-  _lamb_var_60: db 'haha', 10
+  _lamb_var_60: db 'haha', 10, 0
   _lamb_var_60_len: equ $-_lamb_var_60
 
